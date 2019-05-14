@@ -7,13 +7,11 @@ function theBeatlesPlay(mus,inst){
   return newArray;
 }
 
-function addExclamation(list){
-  facts[i] = `${facts[i]} !!!`;
-}
-
 function johnLennonFacts(facts){
-  while(var i=) {
-
+  var i=[facts].length;
+  while(i>=0) {
+  facts[i] = `${facts[i]} !!!`;
+  --i;
   }
   return facts
 }
