@@ -1,6 +1,7 @@
-var newArray = [];
+
 
 function theBeatlesPlay(mus,inst){
+  var newArray = [];
   for (var i=0; i<[mus.length]; i++){
   newArray.push(`${mus[i]} plays ${inst[i]}`);
   }
