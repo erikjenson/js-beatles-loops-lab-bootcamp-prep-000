@@ -21,5 +21,6 @@ function iLoveTheBeatles(x){
   do{
     empty.push(`I love the Beatles!`);
     ++x;
-  } while (x<15)
+  } while (x<15);
+  return makeLove;
 }
