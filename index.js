@@ -15,3 +15,11 @@ function johnLennonFacts(facts){
   }
   return facts
 }
+
+function iLoveTheBeatles(x){
+  var makeLove=[];
+  do{
+    empty.push(`I love the Beatles!`);
+    ++x;
+  } while (x<15)
+}
