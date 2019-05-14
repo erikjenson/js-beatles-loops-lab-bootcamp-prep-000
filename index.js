@@ -8,7 +8,7 @@ function theBeatlesPlay(mus,inst){
 }
 
 function johnLennonFacts(facts){
-  var i=([facts].length)-1;
+  var i=([facts].length);
   while(i>=0) {
   facts[i] = `${facts[i]}!!!`;
   i=i-1;
